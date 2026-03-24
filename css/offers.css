@@ -6,7 +6,7 @@
     gap: 24px;
 }
 
-.card {
+.offers-card .card {
     color: var(--text-secondary-color);
     background-color: var(--background-tertiary-color);
     width: 312px;
@@ -17,7 +17,7 @@
     text-align: center;
 }
 
-.card header {
+.offers-card .card header {
     display: block;
     position: static;
     background: none;
@@ -25,45 +25,26 @@
     margin-bottom: 24px;
 }
 
-.card header p {
+.offers-card .card header p {
     font-size: 20px;
     font-weight: var(--text-weight);
     margin-bottom: 24px;
 }
 
-.card header h3 {
+.offers-card .card header h3 {
     font-size: 40px;
     font-weight: var(--title-weight);
     margin: 8px 0 8px;
 }
 
-.card header span {
+.offers-card .card header span {
     display: inline-block;
     font-size: 32px;
     margin-top: 24px;   
 }
 
-@media screen and (min-width: 768px) {
-   .offers-card {
-    flex-direction: row;   
-    justify-content: center; 
-    flex-wrap: wrap;
-    justify-content: center;
-}
-}
-
-@media  screen and (min-width: 1024px) {
-  .card {
-      height: 308px;    
-      width: 420px;
-  }
-  .card header h3 {
- font-size: 48px;
-}
-
 .card header span {
     font-size: 40px;
-}
 }
 
 .card.japao {
@@ -86,8 +67,28 @@
     background-size: cover;
 }
 
+@media screen and (min-width: 768px) {
+   .offers-card {
+    flex-direction: row;   
+    justify-content: center; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+@media  screen and (min-width: 1024px) {
+  .offers-card .card {
+      height: 308px;    
+      width: 420px;
+  }
+  .offers-card .card header h3 {
+ font-size: 48px;
+}
+
+
+
 @media  screen and (min-width: 1440px) {
-  .card {   
+  .offers-card.card {   
       width: 588px;
   }
 }
@@ -97,4 +98,5 @@
       width: 1250px;
       margin: 0 auto;
   }
+}
 }
