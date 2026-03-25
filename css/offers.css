@@ -1,4 +1,6 @@
-
+.offers {
+    margin-bottom: 104px;
+}
 .offers-card {
     display: flex;
     flex-direction: column;   
