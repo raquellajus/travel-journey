@@ -20,10 +20,6 @@
 }
 
 .offers-card .card header {
-    display: block;
-    position: static;
-    background: none;
-    padding: 0;
     margin-bottom: 24px;
 }
 
