@@ -1,32 +1,29 @@
 .payments .image-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-    height: 460px;
-    margin-top: 24px;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
 }
 
 .payments .content-container {
-    display: flex;
-
+  display: flex;
 }
 
-
 .payments .content-container .image-gallery .image.first {
-    background: url(../img/gallery-mobile1.png) no-repeat;
-    background-size: cover;
+  background: url(../img/gallery-mobile1.png) no-repeat;
+  background-size: cover;
 }
 
 .payments .content-container .image-gallery .image.second {
-    background: url(../img/gallery-mobile2.png) no-repeat;
-    background-size: cover;
+  background: url(../img/gallery-mobile2.png) no-repeat;
+  background-size: cover;
 }
 
 .payments .content-container .image-gallery .image.thirdy {
-    background: url(../img/gallery-mobile3.png) no-repeat;
-    background-size: cover;
-    
+  background: url(../img/gallery-mobile3.png) no-repeat;
+  background-size: cover;
 }
 
 .payments .content-container .image-gallery .image.people {
@@ -34,34 +31,31 @@
 }
 
 @media screen and (min-width: 768px) {
- .payments .content-container .image-gallery .image.first {
+  .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery-tablet1.png) no-repeat;
     background-size: cover;
-    
-}
+  }
 
-.payments .content-container .image-gallery .image.second {
+  .payments .content-container .image-gallery .image.second {
     background: url(../img/gallery-tablet2.png) no-repeat;
     background-size: cover;
-}
+  }
 
-.payments .content-container .image-gallery .image.thirdy {
+  .payments .content-container .image-gallery .image.thirdy {
     background: url(../img/gallery-tablet3.png) no-repeat;
-    background-size: cover; 
-    
-    }
+    background-size: cover;
+  }
 }
 
-@media screen and (min-width: 440px) { 
-    .payments .content-container {
-       justify-content: space-between;
+@media screen and (min-width: 440px) {
+  .payments .content-container {
+    justify-content: space-between;
+  }
+  .payments .content-container .text-content {
+    width: 384px;
+  }
 
-    }
- .payments .content-container .text-content {
-        width: 384px;
-    }
-
-    .payments .content-container .image-gallery {
-        width: 790px;
-    }
+  .payments .content-container .image-gallery {
+    width: 790px;
+  }
 }
