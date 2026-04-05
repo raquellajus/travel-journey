@@ -1,7 +1,16 @@
-.hero-img {
+.hero .hero-img, 
+.bottom-hero .hero-img {
     height: 400px;
     width: 100%;
-    background: url(../img/hero-mobile.jpeg) no-repeat;  
+}
+
+.hero .hero-img {
+    background: url(../img/hero-mobile.png) no-repeat;  
+    background-size: cover;
+}
+
+.bottom-hero .hero-img {
+    background: url(../img/footer1.png) no-repeat;  
     background-size: cover;
 }
 
