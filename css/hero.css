@@ -24,12 +24,10 @@
 /* PACOTES DE VIAGENS */
 .travel-packages.hero {
   margin-bottom: 88px;
-
-
 }
 .travel-packages .hero-img {
   height: 460px;  
-  background: url(../img/hero-japan-mobile.png) no-repeat;
+  background: url(../img/travel-packages/hero-japan-mobile.png) no-repeat;
   background-size: cover;
 }
 
@@ -121,7 +119,8 @@
     width: 570px;
   }
   .travel-packages .hero-img {
-    background: url(../img/travel-packages/japan-bg-hero-desktop.png) no-repeat;
+    background: url(../img/travel-packages/hero-japan-desktop.png
+    ) no-repeat;
     background-size: cover;
   }
   .travel-packages.bottom-hero .hero-img {
